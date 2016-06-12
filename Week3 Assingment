@@ -1,0 +1,27 @@
+makeVector <- function(x = matrix()) {
+        ## intialisation of inverse 
+        i <- NULL
+        ## Method to set the matrix
+        set <- function(y) {
+                x <<- y
+                i <<- NULL
+        }
+        ## Method to get the Matrix
+        get <- function(){
+                ## Return the matrix
+                X
+        }
+        ## Method to set the inverse of a matrix
+                setinverse <- function(inverse) {
+                i <<- inverse
+        }
+        ## Method to get the inverse of a matrix
+        getinverse <- function() {
+        i
+        ## Return inverse of the matrix
+        }
+        list(set = set, get = get,
+             setinverse = setinverse,
+             getinverse = getinverse)
+}
+
